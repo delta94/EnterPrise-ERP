@@ -1,0 +1,22 @@
+.infoholder {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.infoholder__container {
+  color: white;
+  background-color: #ffb380ff;
+  border: 1px solid#ffb380ff;
+  border-radius: 23px;
+  min-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.infoholder__container:hover {
+  color: whitesmoke;
+  background-color: #979da3;
+  border: 1px solid #979da3;
+  transition: 200ms ease-in;
+}

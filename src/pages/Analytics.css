@@ -1,0 +1,29 @@
+.analytics__container {
+  display: flex;
+  background-color: white;
+  top: 55px;
+  width: 100%;
+  flex-direction: row;
+  position: fixed;
+  height: -moz-calc(100% - 55px); /* Firefox */
+  height: -webkit-calc(100% - 55px); /* Chrome, Safari */
+  height: calc(100% - 55px); /* IE9+ and future browsers */
+}
+
+.analytics__body {
+  flex: 1 0 auto;
+  padding: 30px;
+}
+
+.analytics__charts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#chart {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

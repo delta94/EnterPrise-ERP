@@ -1,0 +1,20 @@
+.orders__container {
+  display: flex;
+  background-color: white;
+  top: 55px;
+  width: 100%;
+  flex-direction: row;
+  position: fixed;
+  height: -moz-calc(100% - 55px); /* Firefox */
+  height: -webkit-calc(100% - 55px); /* Chrome, Safari */
+  height: calc(100% - 55px); /* IE9+ and future browsers */
+}
+
+.orders__body {
+  flex: 1 0 auto;
+  padding: 30px;
+  overflow-y: scroll;
+}
+.orders__body__table {
+  margin-top: 20px;
+}

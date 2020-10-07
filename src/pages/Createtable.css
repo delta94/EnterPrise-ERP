@@ -1,0 +1,77 @@
+.createtable__container {
+  display: flex;
+  background-color: white;
+  top: 55px;
+  width: 100%;
+  flex-direction: row;
+  position: fixed;
+  height: -moz-calc(100% - 55px); /* Firefox */
+  height: -webkit-calc(100% - 55px); /* Chrome, Safari */
+  height: calc(100% - 55px); /* IE9+ and future browsers */
+}
+
+.createtable__body {
+  flex: 1 0 auto;
+  padding: 30px;
+  overflow: scroll;
+}
+
+.createtable__body__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.createtable__form {
+  color: white;
+  background-color: #ffb380ff;
+  padding: 25px;
+  border-radius: 20px;
+  width: 50%;
+  position: fixed;
+  left: 450px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.createtable__form__grid {
+  color: white !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.createtable__btn {
+  background-color: white;
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 200ms ease-in;
+}
+
+.createtable__btn:hover {
+  background-color: #979da3;
+  color: white;
+}
+
+.createtable__renderTable {
+  margin-top: 20px;
+  color: black;
+}
+
+.hide {
+  display: none;
+}
+
+.show_table {
+  display: flex;
+}

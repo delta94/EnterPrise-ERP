@@ -1,0 +1,19 @@
+.datatable {
+  color: grey;
+}
+
+.datatable th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+.datatable table {
+  border-collapse: collapse;
+}
+
+.datatable tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+.datatable thead {
+  background-color: white;
+}

@@ -1,0 +1,37 @@
+.sidebaroption {
+  display: flex;
+  justify-content: space-between;
+  color: #979da3;
+  margin: 10px 10px;
+  padding: 10px;
+  border: 1px solid #979da3;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.sidebaroption h4 {
+  font-weight: 600;
+}
+
+.sidebaroption:hover {
+  color: white;
+  background-color: #ffb380ff;
+  border: 1px solid #ffb380ff;
+  transition: 200ms ease-in;
+}
+
+.sidebaroption__icon {
+  display: none;
+  z-index: -99;
+}
+
+.sidebaroption:hover .sidebaroption__icon {
+  color: white;
+  z-index: 1;
+  transition: 200ms ease-in;
+}
+
+.show {
+  z-index: 1;
+  color: white;
+}

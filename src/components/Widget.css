@@ -1,0 +1,25 @@
+.widget {
+  color: grey;
+}
+
+.widget__button {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #979da3;
+  outline: none;
+  box-shadow: 0 8px 6px -6px rgb(173, 173, 173);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.widget__button:hover {
+  background-color: #979da3;
+  color: white;
+  transition: 200ms ease-in;
+}
+
+.widget img {
+  width: 100px;
+  height: 100px;
+}
