@@ -1,17 +1,17 @@
 # EnterPrise-ERP
 ERP based React Web Application
 
-![](https://img.shields.io/github/issues/saivishwak/SEGNet)
-![](https://img.shields.io/github/forks/saivishwak/SEGNet)
-![](https://img.shields.io/github/stars/saivishwak/SEGNet)
-![](https://img.shields.io/github/license/saivishwak/SEGNet)
-![](https://img.shields.io/github/last-commit/saivishwak/SEGNet)
+![](https://img.shields.io/github/issues/saivishwak/EnterPrise-ERP)
+![](https://img.shields.io/github/forks/saivishwak/EnterPrise-ERP)
+![](https://img.shields.io/github/stars/saivishwak/EnterPrise-ERP)
+![](https://img.shields.io/github/license/saivishwak/EnterPrise-ERP)
+![](https://img.shields.io/github/last-commit/saivishwak/EnterPrise-ERP)
 
 
 # Introduction
 React Application with real-time database using Firebase. It is an ERP based application with many functions to create and maintain data for small business applications, It is fully functional and can be integrated with many business applications.
 
-Installation:
+# Installation
     
     git clone https://github.com/saivishwak/EnterPrise-ERP
     
@@ -21,7 +21,7 @@ Installation:
     
     node start
     
-## [MIT License](https://raw.githubusercontent.com/saivishwak/SEGNet/master/LICENSE)
+## [MIT License](https://raw.githubusercontent.com/saivishwak/EnterPrise-ERP/master/LICENSE)
 <img src ="https://img.shields.io/badge/Important-notice-red" />
 <h4>You can use it absolutely anywhere!</h4>
 
