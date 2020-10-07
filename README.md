@@ -21,6 +21,8 @@ React Application with real-time database using Firebase. It is an ERP based app
     
     node start
     
+(Add your Firebase Config in /src/firebase.js before starting the Application)
+
 ## [MIT License](https://raw.githubusercontent.com/saivishwak/EnterPrise-ERP/master/LICENSE)
 <img src ="https://img.shields.io/badge/Important-notice-red" />
 <h4>You can use it absolutely anywhere!</h4>
