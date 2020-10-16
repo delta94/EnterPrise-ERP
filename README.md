@@ -17,9 +17,9 @@ React Application with real-time database using Firebase. It is an ERP based app
     
     cd EnterPrise-ERP
     
-    node install
+    npm install
     
-    node start
+    npm start
     
 (Add your Firebase Config in /src/firebase.js before starting the Application)
 
